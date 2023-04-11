@@ -1,2 +1,5 @@
 Spray Angle Calculation: https://tht.fangraphs.com/research-notebook-new-format-for-statcast-data-export-at-baseball-savant/
 Spray angle vs xStats: https://www.pitcherlist.com/going-deep-batted-ball-direction-and-baseball-savants-xstats/
+LA/BB Type definition: https://www.mlb.com/glossary/statcast/launch-angle
+EV definition: https://www.mlb.com/glossary/statcast/exit-velocity
+Distance definition: https://www.mlb.com/glossary/statcast/hit-distance
