@@ -7,6 +7,7 @@
 \usepackage[style=chicago-authordate,autocite=inline,backend=bibtex]{biblatex}
 \graphicspath{{./images}}
 \let\footnote=\endnote
+\setenotez{list-name={Sources}}
 
 \setlength{\parindent}{0.0in}
 \setlength{\parskip}{0.05in}
@@ -132,7 +133,11 @@ Figure \ref{fig:results_roc} displays the ROC of the statcast baseline, using $x
 
 \section*{Conclusion}
 
+Statcast's $xBA$ model provides excellent insight into a hitters skill based on what the hitter can control. However, it's reliance on empirical data and opaque methodology make it less accesible for deeper insight. A well trained model can both provide customization from the training data as well as include more of the information available. The model performed almost as well as using the Statcast $xBA$ as a classifier. It had slighly improved sensitivity at the cost of slightly reduced overall accuracy. This demonstrates that it could be a suitable replacement as for hit probability.
+
 \section*{Future Work}
+
+Weakly informative priors were used for all coefficients while training this model. Further research could be done to find better priors fo the coefficients. In addition, the training data for this model was from all environments, further investigation should be done to see if the model would perform better on data from specific ballparks. Finally, adjustments to the spray angle formula as well as further segregating batted ball types into more categories, such as high and low line drives, coud improve classification.
 
 \noindent\rule{\textwidth}{1pt}
 \printendnotes
